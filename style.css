@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #fdfdfd;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  width: 350px;
+  height: 120px;
+  border-radius: 20px;
+  padding: 10px 8px;
+  background-image: url(./img/bg6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 10px gray;
+  text-align: center;
+  transition: all 2s;
+  overflow: hidden;
+}
+.weather {
+  display: none;
+}
+.card .cityName {
+  width: 100%;
+  height: 40px;
+  padding: 5px 0;
+  position: relative;
+  margin-top: 5px;
+}
+.cityName input {
+  width: 220px;
+  padding: 5px 6px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  padding-left: 25px;
+  outline: none;
+  text-transform: capitalize;
+  background: transparent;
+}
+.cityName i {
+  position: absolute;
+  left: 17px;
+  top: 12px;
+  color: #424141;
+}
+.cityName button {
+  border: 1px solid gray;
+  outline: none;
+  background: transparent;
+  padding: 5px 6px;
+  border-radius: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  color: gray;
+  transition: all .1s;
+}
+button:active {
+  transform: scale(.95);
+}
+.weather {
+  color: #212121;
+}
+span#temp {
+  display: block;
+  font-size: 6rem;
+  margin-top: -40px;
+  font-weight: 600;
+}
+.info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 17px;
+  font-weight: bold;
+}
+.date {
+  margin-top: 25px;
+}
+h1 {
+  margin-top: -10px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+p {
+  margin-top: -10px;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+img {
+  margin-top: -12px;
+}
