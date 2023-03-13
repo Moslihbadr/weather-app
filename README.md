@@ -4,7 +4,7 @@
 <h3>Features</h3>
 <ul>
 <li>Get current weather information for a city</li>
-<li>Temperature displayed in Celsius or Fahrenheit</li>
+<li>Temperature displayed in Celsius</li>
 <li>Weather icons displayed based on current weather conditions</li>
 <li>Error handling for invalid city names</li>
 </ul>
