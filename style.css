@@ -114,3 +114,21 @@ img {
 strong {
   font-size: 20px;
 }
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: 25px;
+  }
+  span#temp {
+    font-size: 5rem;
+    margin-top: -30px;
+  }
+  p {
+    font-size: 20px;
+  }
+  img {
+    margin-top: -5px;
+  }
+  .info {
+    margin-top: 30px;
+  }
+}
