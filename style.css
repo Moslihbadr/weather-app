@@ -104,3 +104,13 @@ p {
 img {
   margin-top: -12px;
 }
+.rights {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+strong {
+  font-size: 20px;
+}
